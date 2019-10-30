@@ -1,0 +1,22 @@
+{
+	"name": "yii2lab/yii2-core",
+	"type": "yii2-extension",
+	"keywords": ["yii2","core"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yamshikov Vitaliy, WOOPPAY LLC",
+			"email": "theyamshikov@yandex.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"yii2lab\\core\\": "src"
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"php": ">=5.3.0"
+	}
+}
